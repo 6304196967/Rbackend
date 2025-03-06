@@ -1,4 +1,5 @@
 from flask import Flask, render_template,Request,jsonify
+from flask_cors import CORS
 import pickle
 import json
 import numpy as np
@@ -6,6 +7,7 @@ import os
 import pandas as pd
 
 app = Flask(__name__)
+CORS(app)
 
 # Load model and columns
 try:
