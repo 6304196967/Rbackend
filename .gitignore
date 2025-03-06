@@ -21,3 +21,4 @@ __pycache__/
 # Ignore OS-generated files
 .DS_Store
 Thumbs.db
+.vercel
